@@ -3,6 +3,9 @@ package com.zeki.java_project_stack;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author
+ */
 @SpringBootApplication
 public class JavaProjectStackApplication {
 
