@@ -20,15 +20,17 @@ import java.util.concurrent.TimeUnit;
  * @date 2020/9/12 11:03
  */
 @RestController
-public class TestController {
+public class TestController<T> {
 
     @Autowired
     StringRedisTemplate stringRedisTemplate;
+
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String test() {
         return "hello world";
     }
+
 
     @GetMapping("/redis/putUserData")
     public void putUserData() {
