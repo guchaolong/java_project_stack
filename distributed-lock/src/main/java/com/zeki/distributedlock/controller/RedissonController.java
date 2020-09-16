@@ -1,4 +1,4 @@
-package com.zeki.distributedlock.redis;
+package com.zeki.distributedlock.controller;
 
 import org.redisson.Redisson;
 import org.redisson.api.RLock;
@@ -21,8 +21,10 @@ public class RedissonController {
     @Autowired
     Redisson redisson;
 
+
     @GetMapping
     public void redissonTest() {
+
         String lockKey = "product_oo1";
         //1 拿到锁对象
         RLock redissonLock = redisson.getLock(lockKey);
