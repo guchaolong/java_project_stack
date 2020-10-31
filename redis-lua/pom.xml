@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zeki</groupId>
-    <artifactId>token-bucket</artifactId>
+    <artifactId>redis-lua</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>token-bucket</name>
-    <description>Demo project for Spring Boot</description>
+    <name>redis-lua</name>
+    <description>Redis + Lua分布式限流</description>
 
     <properties>
         <java.version>1.8</java.version>
