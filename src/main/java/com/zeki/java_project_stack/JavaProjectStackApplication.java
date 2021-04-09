@@ -5,11 +5,13 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.core.annotation.Order;
 
 /**
  * @author
  */
 @SpringBootApplication
+@Order(3)//ApplicationRunner.run方法执行顺序
 public class JavaProjectStackApplication implements ApplicationRunner {
 
     public static void main(String[] args) {
