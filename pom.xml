@@ -8,15 +8,28 @@
         <version>2.3.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.zeki</groupId>
     <artifactId>java_project_stack</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>java_project_stack</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
+    <modules>
+        <module>api-response</module>
+        <module>common</module>
+        <module>distributed-lock</module>
+        <module>distributed-lock2</module>
+        <module>distributed-lock3</module>
+        <module>global-exception-handle</module>
+        <module>redis-lua</module>
+        <module>zk</module>
+    </modules>
 
     <dependencies>
         <dependency>

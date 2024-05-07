@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zeki</groupId>
-    <artifactId>distributed-lock</artifactId>
+    <artifactId>distributed-lock2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>distributed-lock</name>
     <description>Demo project for Spring Boot</description>
