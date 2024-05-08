@@ -29,6 +29,7 @@
         <module>global-exception-handle</module>
         <module>redis-lua</module>
         <module>zk</module>
+        <module>utils</module>
     </modules>
 
     <dependencies>
